@@ -79,12 +79,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Bosscuts
+                    <!--Bosscuts-->
+                    
+                    <img src="images/logo.jpg/"></img>
                 </div>
 
                 <div class="links">
                      @foreach($services as $data)
-                     <a>{{ $data->service_title}}</a>
+                     <h2>{{ $data->service_title}}</h2>
                      @endforeach
                 </div>
             </div>
